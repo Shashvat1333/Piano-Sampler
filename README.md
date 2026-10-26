@@ -2,7 +2,7 @@
 
 A standalone sampler built with an ESP32. Touch a pad and it plays a sound from an SD card.
 
-<img width="616" height="752" alt="Piano Sampler Project" src="PASTE_YOUR_IMAGE_LINK_HERE" />
+<img width="1182" height="882" alt="image" src="https://github.com/user-attachments/assets/4d185c69-89ae-44e0-93a0-4e89ef57a1f6" />
 
 ## Table of Contents
 - [What It Does](#what-it-does)
@@ -23,25 +23,9 @@ A standalone sampler built with an ESP32. Touch a pad and it plays a sound from 
 
 ---
 
-## Repository Structure
-
-```
-Piano-Sampler/
-├── FIRMWARE.ino
-├── Piano Sampler.kicad_sch
-├── Wiring Diagram.md
-├── CAD/
-├── images/
-├── BOM.md
-├── LICENSE.md
-└── README.md
-```
-
----
-
 ## CAD Model
 
-Enclosure designed in Onshape: [View Onshape Model](PASTE_YOUR_ONSHAPE_LINK_HERE)
+Enclosure designed in Onshape: [View Onshape Model](https://cad.onshape.com/documents/551233cc762d0b86e6aad035/w/fb25114a87d42144b650da94/e/d1c483ae397747764a2a6bec)
 
 ---
 
@@ -50,31 +34,13 @@ Enclosure designed in Onshape: [View Onshape Model](PASTE_YOUR_ONSHAPE_LINK_HERE
 - **Schematic:** [Piano Sampler.kicad_sch](https://github.com/Shashvat1333/Piano-Sampler/blob/main/Piano%20Sampler.kicad_sch)
 - **Full wiring:** [Wiring Diagram.md](https://github.com/Shashvat1333/Piano-Sampler/blob/main/Wiring%20Diagram.md)
 
-| Component | ESP32 GPIO | Power (+) | Ground (–) |
-|---|---|---|---|
-| SD Card CS | GPIO 33 | 3.3V | GND |
-| SD Card SCK | GPIO 32 | 3.3V | GND |
-| SD Card MOSI | GPIO 23 | 3.3V | GND |
-| SD Card MISO | GPIO 35 | 3.3V | GND |
-| I2S DIN (Amp) | GPIO 25 | 5V / VIN | GND |
-| I2S BCLK (Amp) | GPIO 26 | 5V / VIN | GND |
-| I2S LRC (Amp) | GPIO 27 | 5V / VIN | GND |
-| LCD SCL (I2C) | GPIO 22 | 5V / VIN | GND |
-| LCD SDA (I2C) | GPIO 21 | 5V / VIN | GND |
-| Volume Wiper | GPIO 34 (ADC) | 3.3V | GND |
-| Next Preset Button | GPIO 16 | Internal Pullup | GND Rail |
-| Prev Preset Button | GPIO 17 | Internal Pullup | GND Rail |
-| Record Button | GPIO 18 | Internal Pullup | GND Rail |
-| Play Button | GPIO 19 | Internal Pullup | GND Rail |
-| Touch Pads 1–7 | GPIO 0, 2, 4, 5, 12, 13, 15 | 3.3V | GND Rail |
-
-<img width="675" height="537" alt="Wiring Schematic" src="PASTE_YOUR_WIRING_IMAGE_LINK_HERE" />
+<img width="1231" height="745" alt="image" src="https://github.com/user-attachments/assets/3d34e765-1810-4f9a-b2bb-7769f75a543c" />
 
 ---
 
 ## Firmware
 
-- **Code:** [FIRMWARE.ino](https://github.com/Shashvat1333/Piano-Sampler/blob/main/FIRMWARE.ino)
+- **Code:** [FIRMWARE.ino](https://github.com/Shashvat1333/Piano-Sampler/blob/main/firmware.ino)
 - **Libraries:** `SD`, `SPI`, `Wire`, `LiquidCrystal_I2C`, `driver/i2s.h`
 - **Board:** ESP32 Dev Module
 
