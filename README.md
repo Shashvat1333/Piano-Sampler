@@ -6,7 +6,6 @@ A standalone sampler built with an ESP32. Touch a pad and it plays a sound from 
 
 ## Table of Contents
 - [What It Does](#what-it-does)
-- [Repository Structure](#repository-structure)
 - [CAD Model](#cad-model)
 - [Wiring](#wiring)
 - [Firmware](#firmware)
