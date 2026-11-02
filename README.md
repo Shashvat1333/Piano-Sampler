@@ -61,7 +61,7 @@ Enclosure designed in Onshape: [View Onshape Model](https://cad.onshape.com/docu
    ```
 2. **Assemble the hardware:** Melt the heat-set inserts into the printed frame, mount the components, and solder the connections using the wiring table.
 3. **Upload the code:** Open `FIRMWARE.ino` in the Arduino IDE, install the libraries, select **ESP32 Dev Module**, and upload.
-4. **Power and play:** Insert the SD card, power the board over USB or an external supply, and start touching pads.
+4. **Power and play:** Insert the SD card, power the board over USB or an external supply, and start playing music.
 
 ---
 
