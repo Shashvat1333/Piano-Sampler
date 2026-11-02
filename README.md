@@ -50,7 +50,8 @@ Enclosure designed in Onshape: [View Onshape Model](https://cad.onshape.com/docu
 
 ## Getting Started
 
-1. **Prepare the SD card:** Format it as FAT32 and add one folder per instrument, each with `1.wav` to `7.wav`:
+1. **Prepare the SD card:** Format it as FAT32 and add one folder per instrument ([Click Here to Download Sound](https://github.com/Shashvat1333/Piano-Sampler/tree/main/Sound)
+), each with `1.wav` to `7.wav`:
    ```text
    /Acoustic Piano/
    /Banjo/
