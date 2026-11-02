@@ -26,6 +26,9 @@ A standalone sampler built with an ESP32. Touch a pad and it plays a sound from 
 
 Enclosure designed in Onshape: [View Onshape Model](https://cad.onshape.com/documents/551233cc762d0b86e6aad035/w/fb25114a87d42144b650da94/e/d1c483ae397747764a2a6bec)
 
+[View the 3D CAD Model on Onshape](https://github.com/Shashvat1333/Piano-Sampler/tree/main/CAD)
+
+
 ---
 
 ## Wiring
